@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
 </head>
 
 <body>
@@ -21,21 +24,30 @@
                 <h1>Sign Up</h1>
               </div>
               <form>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
-                <label for="password-repeat">Confirm Password</label>
-                <input type="password" id="password-repeat" name="password-repeat" required>
-                <label for="terms">
+                <div class="row">
+                  <label for="name">👤</label>
+                  <input type="text" id="name" name="name" placeholder='Name' required>
+                </div>
+                <div class="row">
+                  <label for="email">📧</label>
+                  <input type="email" id="email" name="email" placeholder='Email'required>
+                </div>
+                <div class="row">
+                  <label for="password">🔒</label>
+                  <input type="password" id="password" name="Password" placeholder='Password' required>
+                </div>
+                <div class="row">
+                  <label for="password-repeat">🔒</label>
+                  <input type="password" id="password-repeat" name="password-repeat" placeholder='Confirm Password' required>
+                </div>
+                <label class='terms' for="terms">
                   <input type="checkbox" id="terms" name="terms" required> I accept the terms and conditions
                 </label>
                 <input type="submit" value="Sign Up">
               </form>
             </div>
         </div>
+        <script src="script.js"></script>
 </body>
 <a href="https://www.freepik.com/free-vector/man-having-online-job-interview_9430578.htm#query=corporate%20illustration&position=13&from_view=keyword">Image by pikisuperstar</a> on Freepik
 </html>
