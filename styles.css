@@ -1,10 +1,14 @@
-:root { font-family: 'Inter', sans-serif; }
+:root {
+  font-family: "Inter", sans-serif;
+}
 @supports (font-variation-settings: normal) {
-  :root { font-family: 'Inter var', sans-serif; }
+  :root {
+    font-family: "Inter var", sans-serif;
+  }
 }
 
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   box-sizing: border-box;
 }
 body {
@@ -63,12 +67,10 @@ form input[type="password"] {
   flex: 1;
 }
 
-form input:focus{
-
-border: 2px solid blue;
-box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+form input:focus {
+  border: 2px solid blue;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.3);
 }
-
 
 .row {
   display: flex;
@@ -82,7 +84,7 @@ form input[type="submit"] {
   color: white;
   padding: 14px 20px;
   margin-top: 10px;
-  margin-left:40px;
+  margin-left: 40px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -95,4 +97,11 @@ form input[type="submit"]:hover {
 
 form .terms {
   font-size: 0.8em;
+}
+
+.credit {
+  font-size: 0.7em;
+  margin-left:40px;
+  color:grey;
+  text-decoration: none;
 }
