@@ -63,6 +63,13 @@ form input[type="password"] {
   flex: 1;
 }
 
+form input:focus{
+
+border: 2px solid blue;
+box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+
 .row {
   display: flex;
   justify-content: flex-start;
